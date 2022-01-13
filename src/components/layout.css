@@ -2,8 +2,10 @@ body {
 }
 .layout__container {
   width: 100%;
+  position:relative;
   text-align: center;
-  background-color:#0e1217
+  background-color:#0e1217;
+  overflow:hidden;
 }
 .slides {
   display: flex;

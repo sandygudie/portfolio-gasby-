@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md"
 
 function Sidebar() {
   return (
-    <div className="  w-full  relative top-0 p-6  text-white h-[100vh] bg-[#73ccbf] shadow-lg w-6/6 rounded-bl-3xl">
+    <div className="  w-full  relative top-0 text-white h-[100vh] bg-[#73ccbf] shadow-lg w-6/6 rounded-bl-3xl">
       <div className="  absolute w-3/6  flex flex-row m-auto justify-between  md:w-1/6 ">
         <a
           className=" border border-white p-[0.5em] rounded-full"
@@ -38,7 +38,7 @@ function Sidebar() {
         </a>
       </div>
       <a
-        className="rounded-md absolute top-[4%] right-[3%]  p-2 font-bold border border-white bg-white w-24 text-black hover:bg-transparent text-white"
+        className="rounded-md  top-[4%] right-[3%]  p-2 font-bold border border-white bg-white w-24 text-black hover:bg-transparent text-white"
         href="https://drive.google.com/file/d/16iHk-1jsugthIesU1aQs-_YXhZIVoMlX/view?usp=sharing"
         rel="noreferrer"
         target="_blank"
