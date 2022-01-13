@@ -15,7 +15,7 @@ function Projects() {
       </h1>
 
       <div className=" w-[80%] mx-auto   md:flex justify-center flex-wrap  scroll gap-4 ">
-        <div className="project_card my-6 border-none rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px] md:my-0">
+        <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
           <StaticImage
             src="../images/tutorhub.png"
             width={200}
@@ -45,7 +45,7 @@ function Projects() {
           </a>
         </div>
 
-        <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px] md:my-0">
+        <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
           <StaticImage
             src="../images/Launmax.jpg"
             width={200}
@@ -73,7 +73,7 @@ function Projects() {
             </p>
           </a>
         </div>
-        <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px] md:my-0">
+        <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
           <StaticImage
             src="../images/MicroApi.png"
             width={200}
@@ -100,7 +100,7 @@ function Projects() {
             </p>
           </a>
         </div>
-        <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px] md:my-0">
+        <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
           <StaticImage
             src="../images/Rexhot.png"
             width={200}
@@ -125,7 +125,7 @@ function Projects() {
             </p>
           </a>
         </div>
-        <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px] md:my-0">
+        <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
           <StaticImage
             src="../images/ShoeApp.png"
             width={200}
@@ -153,7 +153,7 @@ function Projects() {
             </p>
           </a>
         </div>
-        <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px] md:my-0">
+        <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
           <StaticImage
             src="../images/workertracker.png"
             width={200}

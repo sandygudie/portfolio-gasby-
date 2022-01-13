@@ -28,7 +28,7 @@ function Aboutme() {
           <span className="text-[#73ccbf] text-bold">Blog.</span> And, I love the thrills of{" "}
           <span className="text-[#73ccbf] text-bold">Startups.</span>{" "}
         </p>         
-         <p> Feel free to contact me or leave a message on <a className="text-[#73ccbf] text-sm italic underline " >goodnewssandy@gmail</a> .</p>
+         <p> Feel free to contact me or leave a message on <span className="text-[#73ccbf] text-sm italic underline " >goodnewssandy@gmail</span> .</p>
     
       </div>
     </div>
