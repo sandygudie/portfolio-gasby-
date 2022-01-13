@@ -23,14 +23,13 @@ const IndexPage = () => (
       >
         <Projects />
       </div>
-      {/* <div className=" flex text-black-100 justify-center w-full slider absolute bottom-[1.5em]">
+    </div>
+    <div className=" flex text-black-100 justify-center w-full slider absolute bottom-[1.5em]">
       <a href="#profile"> Profile </a>
 
       <a href="#aboutme">About Me</a>
       <a href="#project">Experiences</a>
-    </div> */}
     </div>
-   
   </Layout>
 )
 

@@ -14,8 +14,8 @@ function Projects() {
         Projects
       </h1>
 
-      <div className=" w-[80%] mx-auto   lg:flex justify-center flex-wrap  scroll gap-4 ">
-        <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px] md:my-0">
+      <div className=" w-[80%] mx-auto   md:flex justify-center flex-wrap  scroll gap-4 ">
+        <div className="project_card my-6 border-none rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px] md:my-0">
           <StaticImage
             src="../images/tutorhub.png"
             width={200}
@@ -23,10 +23,10 @@ function Projects() {
             quality={95}
             formats={["auto", "webp", "avif"]}
             alt="tutorhub"
-            class="h-full w-full"
+            class="h-full w-full  rounded-lg"
           />
           <a
-            className=" absolute top-0 left-0 bg-[#000000] h-full w-full "
+            className=" rounded-lg absolute top-0 left-0 bg-[#000000] h-full w-full "
             href="https://tutorhub.vercel.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
