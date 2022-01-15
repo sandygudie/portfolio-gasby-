@@ -57,7 +57,7 @@ function Sidebar() {
           className=" rounded-lg w-[150px] h-[150px]    md:w-[300px] md:h-[300px]  "
         />
         <div className="xl:text-left ">
-          <p className=" mt-6 text-l text-bold md:mt-12 xl:text-l ">
+          <p className=" mt-6 text-l text-bold md:mt-12 xl:text-xl ">
             Hi!, my name Is
           </p>
           <h2 className="font-bold text-xl md:text-4xl  ">Sandy Goodnews.</h2>
