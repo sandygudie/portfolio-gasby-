@@ -18,13 +18,21 @@ function Seo({ description, lang, meta, title }) {
           siteMetadata {
             title
             description
-            author
+            keywords
+            image
+            themecolor
           }
         }
       }
     `
   )
 
+  // const metaDescription = description || site.siteMetadata.description
+  // const defaultTitle = site.siteMetadata?.title
+
+  const image = site.siteMetadata.image
+  const themecolor = site.siteMetadata.themecolor
+  const keywords = site.siteMetadata.keywords
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
@@ -41,6 +49,14 @@ function Seo({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: keywords,
+        },
+        {
+          name: `theme-color`,
+          content: themecolor,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -48,13 +64,22 @@ function Seo({ description, lang, meta, title }) {
           property: `og:description`,
           content: metaDescription,
         },
+        
         {
           property: `og:type`,
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: image,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
+        },
+        {
+          name: `twitter:image`,
+          content: image,
         },
         {
           name: `twitter:creator`,
@@ -81,6 +106,7 @@ Seo.defaultProps = {
 
 Seo.propTypes = {
   description: PropTypes.string,
+  image: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,

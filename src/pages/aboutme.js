@@ -9,7 +9,7 @@ function Aboutme() {
       <div className="text-white text-md leading-8 text-justify md:tracking-wider md:text-lg  lg:leading-10  xl:tracking-normal">
         <p className="pt-2">
           Hi My name is{" "}
-          <span className="text-[#73ccbf] text-bold">Goodnews.</span> <br /> I
+          <span className="text-[#73ccbf] text-bold">Goodnews Sandy.</span> <br /> I
           am an experienced{" "}
           <span className="text-[#73ccbf] text-bold">Frontend developer </span>,{" "}
           <span className="text-[#73ccbf] text-bold">Tech Instructor </span>and{" "}

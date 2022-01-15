@@ -31,7 +31,7 @@ function Projects() {
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
             <div className="absolute left-2/4 top-2/4 w-4/5 font-bold translate-x-2/4 translate-y-2/4">
-              <h3 className="text-md text-[#73ccbf] ">TutorHub</h3>
+              <h2 className="text-md text-[#73ccbf] ">TutorHub</h2>
               <p className="text-sm">
                 {" "}
                 Find online tutors. You can schedule for one-on-one or group
@@ -61,7 +61,7 @@ function Projects() {
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
             <div className="absolute left-2/4 top-2/4 w-4/5 font-bold translate-x-2/4 translate-y-2/4">
-              <h3 className="text-md text-[#73ccbf]">LaunMax</h3>
+              <h2 className="text-md text-[#73ccbf]">LaunMax</h2>
               <p className="text-sm">
                 {" "}
                 Official Website for a Laundry Business Mobile App.{" "}
@@ -89,7 +89,7 @@ function Projects() {
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
             <div className="absolute left-2/4 top-2/4  w-4/5 font-bold translate-x-2/4 translate-y-2/4">
-              <h3 className="text-md text-[#73ccbf]">MicroApi</h3>
+              <h2 className="text-md text-[#73ccbf]">MicroApi</h2>
               <p className=" text-sm">
                 APIs for developers, you can easily integrated into projects.{" "}
               </p>
@@ -116,7 +116,7 @@ function Projects() {
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
             <div className="absolute left-2/4 top-2/4 w-4/5 font-bold translate-x-2/4 translate-y-2/4">
-              <h3 className="text-md text-[#73ccbf]">RexHot</h3>
+              <h2 className="text-md text-[#73ccbf]">RexHot</h2>
               <p className="   text-sm">Creators get rewards for creativity.</p>
             </div>{" "}
             <p className="  absolute bottom-3 left-5 text-[0.8rem] py-4 italic">
@@ -141,7 +141,7 @@ function Projects() {
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
             <div className="absolute left-2/4 top-2/4 w-4/5 font-bold translate-x-2/4 translate-y-2/4">
-              <h3 className="text-md text-[#73ccbf]">ShoeBooth</h3>
+              <h2 className="text-md text-[#73ccbf]">ShoeBooth</h2>
               <p className="text-sm">
                 {" "}
                 An ecommerce app for ladies footwears.{" "}
@@ -169,7 +169,7 @@ function Projects() {
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
             <div className="absolute left-2/4 top-2/4  w-4/5 font-bold translate-x-2/4 translate-y-2/4">
-              <h3 className="text-md text-[#73ccbf] ">Networth</h3>
+              <h2 className="text-md text-[#73ccbf] ">Networth</h2>
               <p className="text-sm"> Keep track of your asests.</p>
             </div>
             <p className="  absolute bottom-3 left-5 text-[0.8rem] py-4 italic">

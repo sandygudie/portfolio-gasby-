@@ -1,7 +1,7 @@
 import * as React from "react"
 
 import Layout from "../components/layout"
-
+import Seo from "../components/seo"
 import Profile from "./profile"
 import Projects from "./projects"
 import "normalize.css"
@@ -9,7 +9,8 @@ import Aboutme from "./aboutme"
 
 const IndexPage = () => (
   <Layout>
-    <div class="slides">
+     <Seo title="Portfolio"/>
+    <div className="slides">
       <div id="profile">
         <Profile />
       </div>

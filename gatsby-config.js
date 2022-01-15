@@ -1,9 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Goodnews sandy`,
+    description: ` An experienced Frontend developer passionate about building interactive UI interface`,
+    author: `@goodnewssandy`,
+    siteUrl: `https://goodnewssandy.netlify.app/`,
+    keywords: `frontend, developer,web ,software, tech,portfolio,design, interface`,
+    image: `src/images/profilephotowhite.png`,
+    themecolor: `#0e1217`
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -30,7 +33,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logotwo.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
