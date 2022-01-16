@@ -5,16 +5,16 @@ import { BiLinkExternal } from "react-icons/bi"
 
 function Projects() {
   return (
-    <div className="h-full bg-[#0e1217] w-5/6    ">
+    <div className="h-full bg-[#0e1217] w-[85%]    ">
       <h1
         className=" text-left
-       text-bold my-6 ml-6 text-[#73ccbf] text-[25px]
+       text-bold mt-6 mb-4 ml-6 text-[#73ccbf] text-[25px]
     "
       >
         Projects
       </h1>
 
-      <div className=" w-[80%] mx-auto   md:flex justify-center flex-wrap  scroll gap-4 md:w-full ">
+      <div className=" px-[1em] mx-auto h-[80%] overflow-scroll md:flex justify-center flex-wrap  scroll gap-4 md:w-full ">
         <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
           <StaticImage
             src="../images/tutorhub.png"

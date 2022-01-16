@@ -19,7 +19,7 @@ const IndexPage = () => (
         <Aboutme />
       </div>
       <div
-        className="overflow-scroll h-[90%] lg:h-full lg:overflow-hidden"
+        className="  lg:h-full lg:overflow-hidden"
         id="project"
       >
         <Projects />
