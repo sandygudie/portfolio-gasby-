@@ -14,7 +14,7 @@ function Projects() {
         Projects
       </h1>
 
-      <div className=" px-[1em] mb-[1em] mx-auto h-[70%] overflow-scroll md:overflow-hidden md:flex justify-center flex-wrap   gap-4 md:w-full ">
+      <div className=" px-[1em] mb-[1em] mx-auto h-[70%] overflow-scroll md:overflow-hidden md:h-[100%] md:flex justify-center flex-wrap   gap-4 md:w-full ">
         <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
           <StaticImage
             src="../images/tutorhub.png"
