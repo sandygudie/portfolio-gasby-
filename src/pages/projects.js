@@ -14,7 +14,7 @@ function Projects() {
         Projects
       </h1>
 
-      <div className=" px-[1em] mx-auto h-[80%] overflow-scroll md:flex justify-center flex-wrap  scroll gap-4 md:w-full ">
+      <div className=" px-[1em] mb-[1em] mx-auto h-[80%] overflow-scroll md:overflow-hidden md:flex justify-center flex-wrap   gap-4 md:w-full ">
         <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
           <StaticImage
             src="../images/tutorhub.png"
@@ -162,7 +162,7 @@ function Projects() {
               </p>
             </div>
            
-            <ul className=" flex justify-between items-center w-[70%] absolute bottom-3 left-5 text-[0.7rem]  tracking-wide italic">
+            <ul className=" flex justify-between items-center w-[1/2] absolute bottom-3 left-5 text-[0.7rem]  tracking-wide italic">
               <li>
               VANILLAJS
                </li>

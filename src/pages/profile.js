@@ -48,6 +48,7 @@ function Sidebar() {
         Resume
       </a>
 
+
       <div className=" w-full absolute left-2/4 top-2/4  font-bold translate-x-2/4 translate-y-2/4  items-end text-center page--details xl:flex flex-row-reverse justify-flex-start gap-[97px] xl:w-[80%] ">
         <StaticImage
           src="../images/profilephotowhite.jpg"
@@ -60,7 +61,7 @@ function Sidebar() {
         />
         <div className="xl:text-left ">
           <p className=" mt-6 text-l text-bold md:mt-12 xl:text-xl ">
-            Hi!, my name Is
+            Hi! <span role="img" aria-label="wave">👋</span>, my name Is
           </p>
           <h2 className="font-bold text-xl md:text-4xl  ">Sandy Goodnews.</h2>
           <h1 className="m-0 text-3xl pb-6 font-bold text-red-500 md:text-7xl ">
