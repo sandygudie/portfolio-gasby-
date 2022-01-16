@@ -38,7 +38,7 @@ function Projects() {
                 learning.{" "}
               </p>
             </div>{" "}
-            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide italic">
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide italic">
               <li>
            MERN
                </li>
@@ -70,7 +70,7 @@ function Projects() {
                 Official Website for a Laundry Business Mobile App.{" "}
               </p>
             </div>
-            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide italic">
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide italic">
               <li>
              HTML
                </li>
@@ -101,7 +101,7 @@ function Projects() {
                 APIs for developers, you can easily integrated into projects.{" "}
               </p>
             </div>
-            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide italic">
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide italic">
               <li>
             PYTHON
                </li>
@@ -162,7 +162,7 @@ function Projects() {
               </p>
             </div>
            
-            <ul className=" flex justify-between items-center w-4/6 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide italic">
+            <ul className=" flex justify-between items-center w-[70%] absolute bottom-3 left-5 text-[0.7rem]  tracking-wide italic">
               <li>
               VANILLAJS
                </li>
@@ -191,7 +191,7 @@ function Projects() {
               <p className="text-sm"> Keep track of your asests.</p>
             </div>
             
-              <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide italic">
+              <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide italic">
               <li>
              HTML
                </li>

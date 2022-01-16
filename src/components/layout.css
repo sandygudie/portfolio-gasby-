@@ -2,6 +2,7 @@ body {
   height: 100%;
   font-display: swap;
   overflow: hidden;
+  position: fixed;
   
 }
 
@@ -53,10 +54,17 @@ body {
   letter-spacing: 4px;
 }
 
-.slider a:hover,
-.slider a:active {
+.slider a:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #73ccbf;
+  transition: width .3s;
+}
 
-  color: white;
+.slider a:hover:after {
+    width: 100%;
 }
 
 .project_card {

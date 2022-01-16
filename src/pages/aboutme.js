@@ -2,13 +2,13 @@ import React from "react"
 
 function Aboutme() {
   return (
-    <div className=" w-[90%]   text-left items-center justify-around    md:absolute md:left-2/4 md:top-2/4  md:translate-x-2/4 md:translate-y-2/4 ">
+    <div className=" w-[80%]   text-left items-center justify-around    md:absolute md:left-2/4 md:top-2/4  md:translate-x-2/4 md:translate-y-2/4 ">
       <h1 className=" text-bold mt-6 text-[#73ccbf] text-[25px] md:text-3xl">
         About Me
       </h1>
       <div className="text-white text-md leading-8 text-justify md:tracking-wider md:text-lg  lg:leading-10  xl:tracking-normal">
         <p className="pt-2">
-          Hi My name is{" "}
+          HELLO! My name is{" "}
           <span className="text-[#73ccbf] text-bold">Goodnews Sandy.</span> <br /> I
           am an experienced{" "}
           <span className="text-[#73ccbf] text-bold">Frontend developer </span>,{" "}
@@ -19,7 +19,7 @@ function Aboutme() {
         </p>
         <p className="pt-2 ">
           {" "}
-          I leverage on various tools to make impact including: HTML, CSS,
+          I leverage on various tools to make impact including: HTML, CSS, TailwindCSS,
           Javascript, ReactJs, Nodejs ,Gatsby, NextJs, Firebase.{" "}
         </p>
 

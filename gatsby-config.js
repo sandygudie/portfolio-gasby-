@@ -5,7 +5,7 @@ module.exports = {
     author: `@goodnewssandy`,
     siteUrl: `https://goodnewssandy.netlify.app/`,
     keywords: `frontend, developer,web ,software, tech,portfolio,design, interface`,
-    image: `src/images/logo.jpg`,
+    image: `src/images/profilephotowhite.jpg`,
     themecolor: `#0e1217`
   },
   plugins: [
@@ -33,7 +33,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logotwo.svg`, // This path is relative to the root of the site.
+        icon: `src/images/icon.jpg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
