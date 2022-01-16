@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Goodnews sandy`,
+    title: `Frontend Developer`,
     description: ` An experienced Frontend developer passionate about building interactive UI interface`,
     author: `@goodnewssandy`,
     siteUrl: `https://goodnewssandy.netlify.app/`,

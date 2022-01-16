@@ -8,6 +8,8 @@ import { MdEmail } from "react-icons/md"
 function Sidebar() {
   return (
     <div className="  w-full  relative top-0 p-6  text-white h-[100vh] bg-[#73ccbf] shadow-lg w-6/6 rounded-bl-3xl">
+     
+     
       <div className="  absolute w-3/6  flex flex-row m-auto justify-between  md:w-1/6 ">
         <a
           className=" border border-white p-[0.5em] rounded-full"
@@ -48,7 +50,7 @@ function Sidebar() {
 
       <div className=" w-full absolute left-2/4 top-2/4  font-bold translate-x-2/4 translate-y-2/4  items-end text-center page--details xl:flex flex-row-reverse justify-flex-start gap-[97px] xl:w-[80%] ">
         <StaticImage
-          src="../images/profilephotowhite.png"
+          src="../images/profilephotowhite.jpg"
           width={400}
           height={400}
           quality={95}

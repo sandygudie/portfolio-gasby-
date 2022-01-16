@@ -38,10 +38,13 @@ function Projects() {
                 learning.{" "}
               </p>
             </div>{" "}
-            <p className=" absolute bottom-3 left-5 text-[0.8rem] py-4 italic">
-              {" "}
-              ReactJS, NodeJS, MongoDB{" "}
-            </p>
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide italic">
+              <li>
+           MERN
+               </li>
+              
+              </ul>
+            
           </a>
         </div>
 
@@ -67,10 +70,14 @@ function Projects() {
                 Official Website for a Laundry Business Mobile App.{" "}
               </p>
             </div>
-            <p className="  absolute bottom-3 left-5 text-[0.8rem] py-4 italic">
-              {" "}
-              HTML, Sass, JS.{" "}
-            </p>
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide italic">
+              <li>
+             HTML
+               </li>
+               <li>SASS</li> 
+               <li> JS</li> 
+              </ul>
+            
           </a>
         </div>
         <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
@@ -94,10 +101,13 @@ function Projects() {
                 APIs for developers, you can easily integrated into projects.{" "}
               </p>
             </div>
-            <p className="  absolute bottom-3 left-5 text-[0.8rem] py-4 italic">
-              {" "}
-              Python{" "}
-            </p>
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide italic">
+              <li>
+            PYTHON
+               </li>
+              
+              
+              </ul>
           </a>
         </div>
         <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
@@ -119,10 +129,14 @@ function Projects() {
               <h2 className="text-md text-[#73ccbf]">RexHot</h2>
               <p className="   text-sm">Creators get rewards for creativity.</p>
             </div>{" "}
-            <p className="  absolute bottom-3 left-5 text-[0.8rem] py-4 italic">
-              {" "}
-              ReactJS{" "}
-            </p>
+          
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide italic">
+              <li>
+           REACT
+               </li>
+               
+              
+              </ul>
           </a>
         </div>
         <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
@@ -147,10 +161,14 @@ function Projects() {
                 An ecommerce app for ladies footwears.{" "}
               </p>
             </div>
-            <p className=" absolute bottom-3 left-5 text-[0.8rem] py-4 italic">
-              {" "}
-              VanillaJS, Contentful.{" "}
-            </p>
+           
+            <ul className=" flex justify-between items-center w-4/6 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide italic">
+              <li>
+              VANILLAJS
+               </li>
+               <li>CONTENTFUL</li> 
+              
+              </ul>
           </a>
         </div>
         <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
@@ -172,10 +190,16 @@ function Projects() {
               <h2 className="text-md text-[#73ccbf] ">Networth</h2>
               <p className="text-sm"> Keep track of your asests.</p>
             </div>
-            <p className="  absolute bottom-3 left-5 text-[0.8rem] py-4 italic">
-              {" "}
-              HTML, Sass, JS.{" "}
-            </p>
+            
+              <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide italic">
+              <li>
+             HTML
+               </li>
+               <li>SASS</li> 
+               <li> JS</li> 
+              </ul>
+            
+          
           </a>
         </div>
       </div>
