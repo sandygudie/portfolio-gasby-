@@ -2,7 +2,7 @@ import React from "react"
 
 function Aboutme() {
   return (
-    <div className=" w-[70%]   text-left items-center justify-around    md:absolute md:left-2/4 md:top-2/4  md:translate-x-2/4 md:translate-y-2/4 ">
+    <div className=" w-[90%]   text-left items-center justify-around    md:absolute md:left-2/4 md:top-2/4  md:translate-x-2/4 md:translate-y-2/4 ">
       <h1 className=" text-bold mt-6 text-[#73ccbf] text-[25px] md:text-3xl">
         About Me
       </h1>
