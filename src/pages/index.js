@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useEffect, useState } from "react";
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -6,8 +6,30 @@ import Profile from "./profile"
 import Projects from "./projects"
 import "normalize.css"
 import Aboutme from "./aboutme"
+import Loading from "./loading";
 
-const IndexPage = () => (
+
+const IndexPage = () => {
+
+  const [isLoading, setIsLoading] = useState(true);
+
+// const handleLoading = () => {
+// setIsLoading(false);
+// }
+
+// useEffect(()=>{
+// window.addEventListener("load",handleLoading);
+// return () => window.removeEventListener("load",handleLoading);
+// },[])
+
+useEffect(()=>{
+setTimeout(()=> setIsLoading(false),5000)
+},[])
+
+return isLoading ? (
+<Loading />
+):(
+  
   <Layout>
      <Seo title="Goodnews Sandy"/>
     <div className="slides">
@@ -35,5 +57,6 @@ const IndexPage = () => (
     </div>
   </Layout>
 )
+}
 
 export default IndexPage

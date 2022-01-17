@@ -8,7 +8,7 @@ function Aboutme() {
       </h1>
       <div className="text-white text-md leading-8 text-justify md:tracking-wider md:text-lg  lg:leading-10  xl:tracking-normal">
         <p className="pt-2">
-          HELLO! My name is{" "}
+          HELLO!<span role="img" aria-label="wave">👋</span>, My name is{" "}
           <span className="text-[#73ccbf] text-bold">Goodnews Sandy.</span> <br /> I
           am an experienced{" "}
           <span className="text-[#73ccbf] text-bold">Frontend developer </span>,{" "}
@@ -29,7 +29,6 @@ function Aboutme() {
           the thrills of{" "}
           <span className="text-[#73ccbf] text-bold">Startups.</span>{" "}
         </p>
-        {/* <p> Feel free to contact me or leave a message on <span className="text-[#73ccbf] text-sm italic underline " >goodnewssandy@gmail</span> .</p> */}
       </div>
     </div>
   )

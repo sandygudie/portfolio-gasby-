@@ -61,7 +61,7 @@ function Sidebar() {
         />
         <div className="xl:text-left ">
           <p className=" mt-6 text-l text-bold md:mt-12 xl:text-xl ">
-            Hi! <span role="img" aria-label="wave">👋</span>, my name Is
+            Hi! , my name Is
           </p>
           <h2 className="font-bold text-xl md:text-4xl  ">Sandy Goodnews.</h2>
           <h1 className="m-0 text-3xl pb-6 font-bold text-red-500 md:text-7xl ">
