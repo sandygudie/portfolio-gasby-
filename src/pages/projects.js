@@ -14,7 +14,7 @@ function Projects() {
         Projects
       </h1>
 
-      <div className=" px-[1em] mb-[1em] mx-auto h-[70%] overflow-scroll md:overflow-hidden md:h-[100%] md:flex justify-center flex-wrap   gap-4 md:w-full ">
+      <div className=" px-[1em] mb-[1em] mx-auto h-[79%] overflow-scroll md:overflow-hidden md:h-[100%] md:flex justify-center flex-wrap  md:h-[80%] gap-4 md:w-full ">
         <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
           <StaticImage
             src="../images/tutorhub.png"
@@ -30,21 +30,17 @@ function Projects() {
             href="https://tutorhub.vercel.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
-            <div className="absolute left-2/4 top-2/4 w-4/5 font-bold translate-x-2/4 translate-y-2/4">
-              <h2 className="text-md text-[#73ccbf] ">TutorHub</h2>
-              <p className="text-sm">
+            <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 text-[18px] leading-6 w-[80%]">
+              <h2 className=" text-[#73ccbf] font-bold">TutorHub</h2>
+              <p className="">
                 {" "}
                 Find online tutors. You can schedule for one-on-one or group
                 learning.{" "}
               </p>
             </div>{" "}
-            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide italic">
-              <li>
-           MERN
-               </li>
-              
-              </ul>
-            
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
+              <li>MERN</li>
+            </ul>
           </a>
         </div>
 
@@ -63,21 +59,15 @@ function Projects() {
             href="https://launmax.netlify.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
-            <div className="absolute left-2/4 top-2/4 w-4/5 font-bold translate-x-2/4 translate-y-2/4">
-              <h2 className="text-md text-[#73ccbf]">LaunMax</h2>
-              <p className="text-sm">
-                {" "}
-                Official Website for a Laundry Business Mobile App.{" "}
-              </p>
+            <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 text-[18px] leading-6 w-[80%]">
+              <h2 className="text-[#73ccbf] font-bold">LaunMax</h2>
+              <p> Official Website for a Laundry Business Mobile App. </p>
             </div>
-            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide italic">
-              <li>
-             HTML
-               </li>
-               <li>SASS</li> 
-               <li> JS</li> 
-              </ul>
-            
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
+              <li>HTML</li>
+              <li>SASS</li>
+              <li> JS</li>
+            </ul>
           </a>
         </div>
         <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
@@ -95,19 +85,15 @@ function Projects() {
             href="https://microapicore.herokuapp.com/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
-            <div className="absolute left-2/4 top-2/4  w-4/5 font-bold translate-x-2/4 translate-y-2/4">
-              <h2 className="text-md text-[#73ccbf]">MicroApi</h2>
-              <p className=" text-sm">
+            <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 text-[18px] leading-6 w-[80%]">
+              <h2 className="text-[#73ccbf] font-bold">MicroApi</h2>
+              <p>
                 APIs for developers, you can easily integrated into projects.{" "}
               </p>
             </div>
-            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide italic">
-              <li>
-            PYTHON
-               </li>
-              
-              
-              </ul>
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
+              <li>PYTHON</li>
+            </ul>
           </a>
         </div>
         <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
@@ -125,18 +111,13 @@ function Projects() {
             href="https://terms-goodnewssandy.vercel.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
-            <div className="absolute left-2/4 top-2/4 w-4/5 font-bold translate-x-2/4 translate-y-2/4">
-              <h2 className="text-md text-[#73ccbf]">RexHot</h2>
-              <p className="   text-sm">Creators get rewards for creativity.</p>
+            <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 text-[18px] leading-6 w-[80%]">
+              <h2 className=" text-[#73ccbf] font-bold ">RexHot</h2>
+              <p>Creators get rewards for creativity.</p>
             </div>{" "}
-          
-            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide italic">
-              <li>
-           REACT
-               </li>
-               
-              
-              </ul>
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide ">
+              <li>REACT</li>
+            </ul>
           </a>
         </div>
         <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
@@ -154,21 +135,14 @@ function Projects() {
             href="https://womenheels.netlify.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
-            <div className="absolute left-2/4 top-2/4 w-4/5 font-bold translate-x-2/4 translate-y-2/4">
-              <h2 className="text-md text-[#73ccbf]">ShoeBooth</h2>
-              <p className="text-sm">
-                {" "}
-                An ecommerce app for ladies footwears.{" "}
-              </p>
+            <div className="absolute left-2/4 top-2/4   translate-x-2/4 translate-y-2/4 text-[18px] leading-6 w-[80%]">
+              <h2 className="text-[#73ccbf] font-bold">ShoeBooth</h2>
+              <p> An ecommerce app for women footwears. </p>
             </div>
-           
-            <ul className=" flex justify-between items-center w-[1/2] absolute bottom-3 left-5 text-[0.7rem]  tracking-wide italic">
-              <li>
-              VANILLAJS
-               </li>
-               <li>CONTENTFUL</li> 
-              
-              </ul>
+            <ul className=" flex justify-between items-center w-[1/2] absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
+              <li>VANILLAJS</li>
+              <li>CONTENTFUL</li>
+            </ul>
           </a>
         </div>
         <div className="project_card my-6 rounded-lg overflow-hidden relative text-white md:w-[250px] md:h-[250px]  lg:h-[350px] lg:w-[350px] xl:h-[250px] xl:w-[250px]  md:my-0">
@@ -186,20 +160,16 @@ function Projects() {
             href="https://mynetworth.netlify.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
-            <div className="absolute left-2/4 top-2/4  w-4/5 font-bold translate-x-2/4 translate-y-2/4">
-              <h2 className="text-md text-[#73ccbf] ">Networth</h2>
-              <p className="text-sm"> Keep track of your asests.</p>
+            <div className="absolute left-2/4 top-2/4   translate-x-2/4 translate-y-2/4 text-[18px] leading-6 w-[80%]">
+              <h2 className="text-[#73ccbf]  font-bold ">Networth</h2>
+              <p> Keep track of your asests.</p>
             </div>
-            
-              <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide italic">
-              <li>
-             HTML
-               </li>
-               <li>SASS</li> 
-               <li> JS</li> 
-              </ul>
-            
-          
+
+            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
+              <li>HTML</li>
+              <li>SASS</li>
+              <li> JS</li>
+            </ul>
           </a>
         </div>
       </div>

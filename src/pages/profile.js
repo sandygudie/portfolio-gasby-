@@ -13,7 +13,7 @@ function Sidebar() {
       <div className="  absolute w-3/6  flex flex-row m-auto justify-between  md:w-1/6 ">
         <a
           className=" border border-white p-[0.5em] rounded-full"
-          href="sandygoodnews@gmail.com"
+          href="mailto:sandygoodnews@gmail.com"
         >
           <MdEmail />
         </a>
@@ -60,11 +60,11 @@ function Sidebar() {
           className=" rounded-lg w-[150px] h-[150px]    md:w-[300px] md:h-[300px]  "
         />
         <div className="xl:text-left ">
-          <p className=" mt-6 text-l text-bold md:mt-12 xl:text-xl ">
+          <p className=" mt-6 text-xl font-bold md:mt-12 xl:text-2xl ">
             Hi! , my name Is
           </p>
-          <h2 className="font-bold text-xl md:text-4xl  ">Sandy Goodnews.</h2>
-          <h1 className="m-0 text-3xl pb-6 font-bold text-red-500 md:text-7xl ">
+          <h2 className="font-bold text-2xl md:text-4xl  ">Sandy Goodnews.</h2>
+          <h1 className="m-0 text-4xl pb-6 font-bold text-red-500 md:text-7xl ">
             I Create Inspiration.
           </h1>
         </div>

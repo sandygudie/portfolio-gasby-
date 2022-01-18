@@ -27,9 +27,6 @@ function Seo({ description, lang, meta, title }) {
     `
   )
 
-  // const metaDescription = description || site.siteMetadata.description
-  // const defaultTitle = site.siteMetadata?.title
-
   const image = site.siteMetadata.image
   const themecolor = site.siteMetadata.themecolor
   const keywords = site.siteMetadata.keywords
@@ -64,7 +61,7 @@ function Seo({ description, lang, meta, title }) {
           property: `og:description`,
           content: metaDescription,
         },
-        
+
         {
           property: `og:type`,
           content: `website`,
