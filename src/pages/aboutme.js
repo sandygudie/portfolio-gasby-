@@ -2,7 +2,7 @@ import React from "react"
 
 function Aboutme() {
   return (
-    <div className=" w-[85%]   text-left items-center justify-around    md:absolute md:left-2/4 md:top-2/4  md:translate-x-2/4 md:translate-y-2/4 xl-[65%] ">
+    <div className=" w-[85%] text-left items-center justify-around  md:absolute md:left-2/4 md:top-2/4  md:translate-x-2/4 md:translate-y-2/4 xl-[65%] ">
       <h1 className=" text-bold mt-6 text-[#73ccbf] text-[25px] md:text-3xl">
         About Me
       </h1>
@@ -23,7 +23,7 @@ function Aboutme() {
         </p>
         <p className="pt-2 ">
           {" "}
-          I leverage on various tools to make impact including: HTML, CSS/Sass,
+          I leverage on various tools to make impact including: HTML, CSS/SASS,
           TailwindCSS, Javascript, ReactJs, Nodejs ,Gatsby, NextJs, Firebase.{" "}
         </p>
 

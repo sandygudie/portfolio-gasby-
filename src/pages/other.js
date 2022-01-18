@@ -1,11 +1,5 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-// import { Link } from "gatsby"
-// import { FaGithub, FaLinkedinIn } from "react-icons/fa"
-// import { AiOutlineMedium } from "react-icons/ai"
-// import { MdEmail } from "react-icons/md"
-// import styled from "styled-components"
-// import Layout from "../components/layout"
 function Profile() {
   return (
     <div className="text-white">

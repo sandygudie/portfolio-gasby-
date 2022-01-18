@@ -30,15 +30,15 @@ function Projects() {
             href="https://tutorhub.vercel.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
-            <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 text-[18px] leading-6 w-[80%]">
-              <h2 className=" text-[#73ccbf] font-bold">TutorHub</h2>
-              <p className="">
+            <div className=" absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4  leading-6 w-[80%]">
+              <h2 className=" text-[18px] text-[#73ccbf] font-bold">TutorHub</h2>
+              <p className="text-[16px]">
                 {" "}
                 Find online tutors. You can schedule for one-on-one or group
                 learning.{" "}
               </p>
             </div>{" "}
-            <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
+            <ul className=" flex justify-between items-center  w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
               <li>MERN</li>
             </ul>
           </a>
@@ -59,9 +59,9 @@ function Projects() {
             href="https://launmax.netlify.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
-            <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 text-[18px] leading-6 w-[80%]">
-              <h2 className="text-[#73ccbf] font-bold">LaunMax</h2>
-              <p> Official Website for a Laundry Business Mobile App. </p>
+            <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4  leading-6 w-[80%]">
+              <h2 className=" text-[18px] text-[#73ccbf] font-bold">LaunMax</h2>
+              <p className="text-[16px]"> Official Website for a Laundry Business Mobile App. </p>
             </div>
             <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
               <li>HTML</li>
@@ -85,9 +85,9 @@ function Projects() {
             href="https://microapicore.herokuapp.com/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
-            <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 text-[18px] leading-6 w-[80%]">
-              <h2 className="text-[#73ccbf] font-bold">MicroApi</h2>
-              <p>
+            <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 leading-6 w-[80%]">
+              <h2 className=" text-[18px] text-[#73ccbf] font-bold">MicroApi</h2>
+              <p  className="text-[16px]">
                 APIs for developers, you can easily integrated into projects.{" "}
               </p>
             </div>
@@ -111,9 +111,9 @@ function Projects() {
             href="https://terms-goodnewssandy.vercel.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
-            <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 text-[18px] leading-6 w-[80%]">
-              <h2 className=" text-[#73ccbf] font-bold ">RexHot</h2>
-              <p>Creators get rewards for creativity.</p>
+            <div className="absolute left-2/4 top-2/4 w-4/5  translate-x-2/4 translate-y-2/4 leading-6 w-[80%]">
+              <h2 className=" text-[18px]  text-[#73ccbf] font-bold ">RexHot</h2>
+              <p className="text-[16px]">Creators get rewards for creativity.</p>
             </div>{" "}
             <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem] py-4 tracking-wide ">
               <li>REACT</li>
@@ -135,9 +135,9 @@ function Projects() {
             href="https://womenheels.netlify.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />{" "}
-            <div className="absolute left-2/4 top-2/4   translate-x-2/4 translate-y-2/4 text-[18px] leading-6 w-[80%]">
-              <h2 className="text-[#73ccbf] font-bold">ShoeBooth</h2>
-              <p> An ecommerce app for women footwears. </p>
+            <div className="absolute left-2/4 top-2/4   translate-x-2/4 translate-y-2/4  leading-6 w-[80%]">
+              <h2 className=" text-[18px] text-[#73ccbf] font-bold">ShoeBooth</h2>
+              <p className="text-[16px] "> An ecommerce app for women footwears. </p>
             </div>
             <ul className=" flex justify-between items-center w-[1/2] absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
               <li>VANILLAJS</li>
@@ -160,9 +160,9 @@ function Projects() {
             href="https://mynetworth.netlify.app/"
           >
             <BiLinkExternal className=" m-4 float-right text-2xl text-[#73ccbf]" />
-            <div className="absolute left-2/4 top-2/4   translate-x-2/4 translate-y-2/4 text-[18px] leading-6 w-[80%]">
-              <h2 className="text-[#73ccbf]  font-bold ">Networth</h2>
-              <p> Keep track of your asests.</p>
+            <div className="absolute left-2/4 top-2/4   translate-x-2/4 translate-y-2/4  leading-6 w-[80%]">
+              <h2 className=" text-[16px] text-[#73ccbf]  font-bold ">Networth</h2>
+              <p className="text-[18px]"> Keep track of your asests.</p>
             </div>
 
             <ul className=" flex justify-between items-center w-1/2 absolute bottom-3 left-5 text-[0.7rem]  tracking-wide ">
