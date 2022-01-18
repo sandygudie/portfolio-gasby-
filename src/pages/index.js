@@ -32,7 +32,7 @@ const IndexPage = () => {
         </div>
       </div>
 
-      <div className=" slider z-20 w-[90%] flex justify-between text-[12px] text-white  text-md fixed left-[2em] bottom-[2.5em] md:w-[45%] font-bold lg:w-[40%] xl:w-[25%] ">
+      <div className=" slider z-20 w-[90%] flex justify-between text-[12px] text-white  text-md fixed left-[2em] bottom-[1em] md:bottom-[2.5em] md:w-[45%] font-bold lg:w-[40%] xl:w-[25%] ">
         <a href="#profile"> Profile </a>
 
         <a href="#aboutme">About Me</a>
